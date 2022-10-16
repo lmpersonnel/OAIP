@@ -31,7 +31,7 @@ int main()
         {
             for (int j = 0; j < col; j++)
             {
-                rd = rand() % 11;
+                rd = rand() % 101;
                 int min = rand() % 2;
                 if (min == 0)
                     min = -1;
